@@ -1,0 +1,11 @@
+
+Uma gráfica responsável por criar e imprimir folhetos de mercados. Esses folhetos são uma apresentação de produtos dos mercados em um determinado dia da semana.
+
+Nosso programa só dá suporte para dois mercados com 5 folhetos cada um, um para cada dia da semana;
+
+Para representar os mercados e folhetos, utilizamos de uma matriz de listas encadeadas simples, onde a linha representa o mercado e cada coluna uma nova lista (folheto); Essas listas
+vão ser contituidas de strings com os nomes de produtos, e como são alocadas dinamicamente, podem ser cadastrados quantos produtos forem solicitados.
+
+Quando precisamos imprimir esses folhetos, precisamos atender a uma fila de mercados para impressão de seus folhetos, onde cada mercado possuirá uma pilha com todos os folhetos na
+ordem de prioridade para impressão, ou seja, sempre o primeiro folheto cadastrado deverá ser o primeiro a ser impresso. Nesta última etapa da aplicação, teremos 3 estruturas de dados
+ligadas ao mesmo tempo: fila, pilha e listas encadeadas simples, enquanto na primeira parte de cadastrar os produtos e folhetos, iremos possuir uma matriz de listas encadeadas.
